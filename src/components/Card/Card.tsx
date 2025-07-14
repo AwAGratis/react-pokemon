@@ -1,5 +1,3 @@
-
-
 import './Card.css';
 
 const Card = ({ children }: { children: React.ReactNode }) => {
@@ -8,6 +6,6 @@ const Card = ({ children }: { children: React.ReactNode }) => {
       {children}
     </div>
   );
-}
+};
 
 export default Card;

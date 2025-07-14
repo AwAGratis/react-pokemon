@@ -1,0 +1,49 @@
+.pokemon-list-container {
+  padding: 1.5rem;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pokemon-list-item {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.pokemon-types {
+  color: #555;
+  text-align: center;
+}
+
+.favorite-btn {
+  margin-top: 0.75rem;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.favorite-btn.active {
+  background: #ffe066;
+  color: #b8860b;
+  border-color: #ffd700;
+}
+.favorite-btn:hover {
+  background: #fff9c4;
+}
